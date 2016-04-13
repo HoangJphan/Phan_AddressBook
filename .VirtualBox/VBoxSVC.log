@@ -1,0 +1,41 @@
+VirtualBox COM Server 5.0.16 r105871 win.amd64 (Mar  4 2016 16:28:58) release log
+00:00:00.005004 main     Log opened 2016-04-12T19:06:38.250667300Z
+00:00:00.005004 main     Build Type: release
+00:00:00.005004 main     OS Product: Windows 8.1
+00:00:00.005004 main     OS Release: 6.3.9600
+00:00:00.005004 main     OS Service Pack: 
+00:00:00.048040 main     DMI Product Name: LIFEBOOK NH751
+00:00:00.061223 main     DMI Product Version:  
+00:00:00.061223 main     Host RAM: 8040MB total, 6220MB available
+00:00:00.061223 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.061223 main     Process ID: 4920
+00:00:00.061223 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.076860          Home directory: 'C:\Users\Jimmyer/.VirtualBox'
+00:00:00.076860          Installed Drivers:
+00:00:00.076860            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 5.0.16.5871)
+00:00:00.076860            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 5.0.16.5871)
+00:00:00.076860            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 5.0.16.5871)
+00:00:00.076860            C:\Windows\system32\DRIVERS\VBoxDrv.sys (Version: 5.0.16.5871)
+00:00:00.092492          Loading settings file "C:\Users\Jimmyer/.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.200655          Getting USB descriptor failed with error 31
+00:00:00.200655          usbLibDevCfgDrGet: DeviceIoControl 1 fail winEr (31)
+00:00:00.216656          USB: Unknown USB device detected (idVendor: 0x0489, idProduct: 0xe031). Please, report the idVendor and idProduct to virtualbox.org.
+00:00:00.258576          HostDnsMonitor: old information
+00:00:00.258576            no server entries
+00:00:00.258576            no search string entries
+00:00:00.258576            no domain set
+00:00:00.258576          HostDnsMonitor: new information
+00:00:00.258576            server 1: 134.154.196.17
+00:00:00.258576            server 2: 134.154.196.18
+00:00:00.258576            server 3: 134.154.196.209
+00:00:00.258576            server 4: 134.154.196.217
+00:00:00.258576            no search string entries
+00:00:00.258576            domain: csueastbay.edu
+00:00:00.258576          HostDnsMonitorProxy::notify
+00:00:00.406728          SUPR0QueryVTCaps -> VERR_VMX_MSR_ALL_VMX_DISABLED
+00:00:00.406728          VD: VDInit finished
+00:00:00.506089          Loading settings file "C:\Users\Jimmyer\VirtualBox VMs\Mango\Mango.vbox" with version "1.15-windows"
+00:00:10.746887          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Unknown exception
+00:00:10.746887          F:\tinderbox\win-5.0\out\win.amd64\release\obj\VBoxAPIWrap\MediumWrap.cpp[2245] (long __cdecl MediumWrap::GetEncryptionSettings(unsigned short **,unsigned short **))}, preserve=false aResultDetail=0
+00:08:17.618706 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium 'C:\Users\Jimmyer\VirtualBox VMs\Mango\Mango.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:08:18.050074 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd945} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
